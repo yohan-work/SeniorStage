@@ -1,0 +1,22 @@
+/* Swiper Pagination 스타일 */
+.swiper-pagination-bullet {
+	background: #4a90e2;
+}
+.swiper-pagination-bullet-active {
+	background: red;
+}
+
+/* Swiper Navigation 버튼 스타일 */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4a90e2;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #2d67a3;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "swiper/swiper-bundle.css"
