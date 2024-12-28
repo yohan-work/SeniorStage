@@ -1,0 +1,12 @@
+{
+	"rewrites": [
+	  {
+		"source": "/api/(.*)",
+		"destination": "/senior-stage-backend/api/$1"
+	  },
+	  {
+		"source": "/(.*)",
+		"destination": "/senior-stage/index.html"
+	  }
+	]
+  }
