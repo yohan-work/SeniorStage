@@ -8,5 +8,15 @@
 		"source": "/(.*)",
 		"destination": "/senior-stage/index.html"
 	  }
+	],
+	"cleanUrls": true,
+	"trailingSlash": false,
+	"redirects": [
+	  {
+		"source": "/index",
+		"destination": "/",
+		"permanent": true
+	  }
 	]
   }
+  
